@@ -1,0 +1,65 @@
+Canvas:
+    shapes*=Shape
+    draw_instructions*=DrawInstruction 
+;
+
+LineColor: 
+    'color' color=Color
+;
+
+FillColor:
+    'fill' color=Color
+;
+
+Color: 
+    'red' | 'green' | 'blue' | 'yellow' | 'magenta' | 'cyan' | 'black' | 'white' | 'brown' | 'orange' | 'grey' | 'gray' | /#[0-9a-f]{6}/
+;
+
+Direction:
+    compass=Compass | angle=Angle
+;
+
+Compass:
+    'E' | 'NE' | 'SE' | 'W' | 'NW' | 'SW' | 'N' | 'S'
+;
+
+Turn:
+    'right' | 'left'
+;
+
+Angle:
+    degrees=FLOAT 'deg' turn=Turn
+;
+
+Line:
+    'line' direction=Direction length=INT  
+;
+
+Shape:
+    'Lebron' name=ID ':'
+        line_color=LineColor?
+        fill_color=FillColor?
+        lines+=Line
+    'I understand it now'
+;
+
+Position:
+    'at' x=INT ',' y=INT
+;
+
+DrawInstruction:
+    Draw | FizzBuzz
+;
+
+Draw:
+    'draw' shape=[Shape] position=Position? 
+;
+
+FizzBuzz:
+    'Fizzbuzz' begin=INT ',' end=INT ', font=(' font=ID ',' size=INT ')' position=Position?
+;
+
+
+Comment:
+    /\/\*(.|\n)*?\*\// | /\/\/.*?$/
+;

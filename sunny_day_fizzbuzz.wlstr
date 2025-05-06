@@ -1,0 +1,22 @@
+Lebron sun:
+    color orange
+    fill yellow
+    line S 100
+    line W 100
+    line N 100
+    line E 100
+I understand it now
+
+Lebron sky:
+    color blue
+    fill blue
+    line S 50
+    line W 1000
+    line N 50
+    line E 1000
+I understand it now
+
+
+draw sky at 500, 325
+draw sun at -275, 325
+Fizzbuzz 0, 100, font=(Arial, 10) at -100, 300

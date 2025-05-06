@@ -1,0 +1,31 @@
+Lebron Crust:
+    color brown
+    fill brown
+    line S 25
+    line E 150
+    line N 25
+    line W 150
+I understand it now
+
+Lebron Pizza:
+    color brown
+    fill yellow
+    line E 150
+    line 135 deg right 105
+    line 90 deg right 105
+I understand it now
+
+Lebron Pepperoni:
+    color red
+    fill red
+    line S 10
+    line E 10
+    line N 10
+    line W 10
+I understand it now 
+
+draw Crust at -50, 0
+draw Pizza at -50, -25
+draw Pepperoni at -7, -50
+draw Pepperoni at 25, -72
+draw Pepperoni at 25, -50

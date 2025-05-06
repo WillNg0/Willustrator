@@ -1,0 +1,31 @@
+Lebron house_base:
+    color black
+    fill brown
+    line S 100
+    line W 100
+    line N 100
+    line E 100
+I understand it now
+
+Lebron house_roof:
+    color brown
+    fill black
+    line E 150
+    line NW 71
+    line W 50
+    line SW 71
+I understand it now
+
+Lebron house_door:
+    color black
+    fill white
+    line N 50 
+    line E 25
+    line S 50
+    line W 25
+I understand it now
+
+
+draw house_base
+draw house_roof at -125, 0
+draw house_door at -50, -100

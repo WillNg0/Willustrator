@@ -1,0 +1,34 @@
+Lebron scrub:
+    color green
+    fill green
+    line S 150
+    line E 125
+    line N 150
+    line W 125
+I understand it now
+
+Lebron soak:
+    color yellow
+    fill yellow
+    line S 140
+    line E 125
+    line N 140
+    line W 125
+I understand it now
+
+Lebron holes:
+    color grey
+    fill grey
+    line S 10
+    line E 10
+    line N 10
+    line W 10
+I understand it now
+
+
+draw scrub
+draw soak at -10, -10
+draw holes at 20, -50
+draw holes at 53, -36
+draw holes at 63, -75
+draw holes at 27, -89

@@ -1,0 +1,65 @@
+Lebron dog_body:
+    color black
+    fill #e89f0e
+    line S 100
+    line E 250
+    line N 100
+    line W 250
+I understand it now
+
+Lebron dog_head:
+    color black
+    fill #d99816
+    line W 115
+    line 125 deg left 100
+    line 110 deg left 100
+I understand it now
+
+Lebron dog_ears:
+    color black
+    fill #9e6d0b
+    line S 40
+    line E 20
+    line N 40
+    line W 20
+I understand it now
+
+Lebron dog_legs:
+    color black
+    fill #9e6d0b
+    line S 40
+    line E 10
+    line N 40
+    line W 10
+I understand it now
+
+Lebron dog_tail:
+    color black
+    fill #d99816
+    line 45 deg right 80
+    line 90 deg right 15
+    line 90 deg right 80
+    line 90 deg right 15
+I understand it now
+
+Lebron features:
+    color black
+    fill black
+    line S 10
+    line E 10
+    line N 10
+    line W 10
+I understand it now
+
+draw dog_body at -100, 0
+draw dog_head at -45, 50
+draw dog_ears at -60, 50
+draw dog_ears at -175, 50
+draw dog_legs at -70, -100
+draw dog_legs at -100, -100
+draw dog_legs at 80, -100
+draw dog_legs at 100, -100
+draw dog_tail at 200, -65 
+draw features at -80, 30
+draw features at -130, 30
+draw features at -105, 10
